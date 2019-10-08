@@ -6,7 +6,7 @@ This project is meant to serve as an introduction to unsupervised learning. The 
 
 ### Approach
 
-I began by downloading [this dataset](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip), which contains information about movies. This includes titles, ratings, genres, and tags, which are keywords from reviews. Once I had the data, encoded the genres of each movie. This simply put the information in a form that will be more useful later. Then, used the many ratings for each movie to calculate a single average rating for each. Next, I grouped and encoded tags for each movie. Soon after vectorizing and clustering these tags, however, I noticed that this approach placed a majority of all movies in a single cluster. This observation caused me to persue other ideas. I went on to cluster movies using KMeans based only on ratings and genres, which gave surprising results.
+I began by downloading [this dataset](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip), which contains information about movies. This includes titles, ratings, genres, and tags, which are keywords from reviews. Once I had the data, encoded the genres of each movie. This simply put the information in a form that will be more useful later. Then, used the many ratings for each movie to calculate a single average rating for each. Next, I grouped and encoded tags for each movie. Soon after vectorizing and clustering these tags, however, I noticed that this approach placed a majority of all movies in a single cluster. This observation caused me to pursue other ideas. I went on to cluster movies using KMeans based only on ratings and genres, which gave surprising results.
 
 ### How to Run
 
